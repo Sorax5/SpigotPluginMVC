@@ -1,0 +1,4 @@
+name: SpigotPluginMVC
+version: '${version}'
+main: fr.phylisiumstudio.spigotpluginmvc.SpigotPluginMVC
+api-version: '1.20'
