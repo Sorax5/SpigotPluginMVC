@@ -1,4 +1,6 @@
-package fr.phylisiumstudio.logic;
+package fr.phylisiumstudio.logic.models;
+
+import fr.phylisiumstudio.logic.Observable;
 
 import java.io.Serializable;
 import java.util.UUID;
@@ -9,6 +11,7 @@ import java.util.UUID;
 public class CraftPlayer extends Observable implements Serializable {
     private int level;
     private double experience;
+    private double experienceToLevelUp;
     private final String name;
     private final UUID uuid;
 
@@ -18,8 +21,13 @@ public class CraftPlayer extends Observable implements Serializable {
      * @param uuid the UUID of the player
      */
     public CraftPlayer(String name, UUID uuid) {
+        super();
+
         this.name = name;
         this.uuid = uuid;
+        this.level = 1;
+        this.experience = 0;
+        this.experienceToLevelUp = 100;
     }
 
     /**
@@ -28,7 +36,7 @@ public class CraftPlayer extends Observable implements Serializable {
      */
     public void setLevel(int level) {
         this.level = level;
-        this.NotifyPlayerLevelChanged(level);
+        this.NotifyPlayerLevelChanged(this, level);
     }
 
     /**
@@ -37,7 +45,15 @@ public class CraftPlayer extends Observable implements Serializable {
      */
     public void setExperience(double experience) {
         this.experience = experience;
-        this.NotifyPlayerExperienceChanged(experience);
+        this.NotifyPlayerExperienceChanged(this, experience);
+    }
+
+    /**
+     * Set the experience to level up of the player
+     * @param experienceToLevelUp the new experience to level up of the player
+     */
+    public void setExperienceToLevelUp(double experienceToLevelUp) {
+        this.experienceToLevelUp = experienceToLevelUp;
     }
 
     /**
@@ -54,5 +70,21 @@ public class CraftPlayer extends Observable implements Serializable {
      */
     public double getExperience() {
         return this.experience;
+    }
+
+    /**
+     * Get the uuid of the player
+     * @return the uuid of the player
+     */
+    public UUID getUuid() {
+        return this.uuid;
+    }
+
+    /**
+     * Get Experience to level up of the player
+     * @return the experience to level up of the player
+     */
+    public double getExperienceToLevelUp() {
+        return this.experienceToLevelUp;
     }
 }
