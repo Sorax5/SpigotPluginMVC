@@ -7,6 +7,7 @@
 ### **Objectif:**
 
 Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du **pattern MVC (Model-View-Controller)** dans le développement d'un **plugin** Minecraft Spigot.
+Il n'a pas pour but de vous apprendre a crée des plugins, il faut avoir des bases de java pour comprendre.
 
 ### **Fonctionnalités:**
 
