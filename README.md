@@ -16,6 +16,8 @@ Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du *
 * Système simple de RPG avec level et expérience
 * Persistence des données
 
+[![Exemple en vidéo](https://img.youtube.com/vi/RI41xBlDplI/0.jpg)](https://www.youtube.com/watch?v=RI41xBlDplI)
+
 ### **Structure du plugin:**
 
 Le plugin est organisé selon le pattern MVC:
