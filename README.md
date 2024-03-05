@@ -57,7 +57,11 @@ Ce plugin est sous licence MIT.
 
 ### **Contributeurs:**
 
-* [SoraxDubbing]
+<a href="https://github.com/Sorax5/SpigotPluginMVC/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Sorax5/SpigotPluginMVC" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
 
 ### **Remarques:**
 
