@@ -38,7 +38,7 @@ Il utilise notamment le design pattern d'Observer.
 * Tutoriel MVC Minecraft: [https://www.spigotmc.org/threads/mvc-pattern-with-events.544327/](https://www.spigotmc.org/threads/mvc-pattern-with-events.544327/)
 * Pattern MVC: [https://developer.mozilla.org/en-US/docs/Glossary/MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 * Pattern Observer [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer)
-* FastBoard [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer)
+* FastBoard [https://github.com/MrMicky-FR/FastBoard](https://github.com/MrMicky-FR/FastBoard)
 
 **Licence:**
 
