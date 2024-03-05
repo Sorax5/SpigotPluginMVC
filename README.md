@@ -37,6 +37,13 @@ L'architecture est multi-tier (3 exactement), une première qui est l'IHM (Minec
 
 Le storage utilise un DAO, avec des méthodes CRUD (create/read/update/delete) avec de la sérialisation en json utilisant Gson qui est nativement intégré a la librairie de spigot.
 
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/conception/Logic.jpg">
+<img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/conception/Storage.jpg">
+<img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/conception/IHM.jpg">
+<img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/conception/Package.jpg">
+</h1>
+
 ### **Build du plugin:**
 
 1. Clonez le repo GitHub
