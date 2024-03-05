@@ -1,6 +1,5 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/minecraft_title.png">
-  <br>ProfilesManager</br>
 </h1>
 
 # Plugin Minecraft - Pattern MVC
@@ -16,6 +15,8 @@ Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du *
 * Stockage de données utilisateur dans un fichier JSON
 * Système simple de RPG avec level et expérience
 * Persistence des données
+
+[![Exemple en vidéo](https://img.youtube.com/vi/RI41xBlDplI/0.jpg)](https://www.youtube.com/watch?v=RI41xBlDplI)
 
 ### **Structure du plugin:**
 
