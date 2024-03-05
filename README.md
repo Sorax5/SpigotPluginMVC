@@ -1,10 +1,10 @@
-## Plugin Minecraft - Pattern MVC
+# Plugin Minecraft - Pattern MVC
 
-**Objectif:**
+### **Objectif:**
 
-Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du pattern MVC (Model-View-Controller) dans le développement d'un plugin Minecraft.
+Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du **pattern MVC (Model-View-Controller)** dans le développement d'un **plugin** Minecraft Spigot.
 
-**Fonctionnalités:**
+### **Fonctionnalités:**
 
 * Gestion des utilisateurs simples avec pattern Observer
 * Interface graphique simple avec ScoreBoard et BossBar
@@ -12,7 +12,7 @@ Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du p
 * Système simple de RPG avec level et expérience
 * Persistence des données
 
-**Structure du plugin:**
+### **Structure du plugin:**
 
 Le plugin est organisé selon le pattern MVC:
 
@@ -22,7 +22,7 @@ Le plugin est organisé selon le pattern MVC:
 
 Il utilise notamment le design pattern d'Observer.
 
-**Build du plugin:**
+### **Build du plugin:**
 
 1. Clonez le repo GitHub
 2. Ouvrez avec un IDE (Intellij de préférences)
@@ -33,36 +33,36 @@ Il utilise notamment le design pattern d'Observer.
 2. Démarrez votre serveur Minecraft
 3. Rejoignez le serveur
 
-**Ressources:**
+### **Ressources:**
 
 * Tutoriel MVC Minecraft: [https://www.spigotmc.org/threads/mvc-pattern-with-events.544327/](https://www.spigotmc.org/threads/mvc-pattern-with-events.544327/)
 * Pattern MVC: [https://developer.mozilla.org/en-US/docs/Glossary/MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 * Pattern Observer [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer)
 * FastBoard [https://github.com/MrMicky-FR/FastBoard](https://github.com/MrMicky-FR/FastBoard)
 
-**Licence:**
+### **Licence:**
 
 Ce plugin est sous licence MIT.
 
-**Contributeurs:**
+### **Contributeurs:**
 
 * [SoraxDubbing]
 
-**Remarques:**
+### **Remarques:**
 
 * Ce plugin est un exemple simple et pédagogique. Il peut être étendu et amélioré pour des fonctionnalités plus complexes.
 * N'hésitez pas à contribuer au projet en forkant le repo et en soumettant des pull requests.
 
-**Prochaines étapes:**
+### **Prochaines étapes:**
 
 * Ajout de commandes d'administration
 
 N'hésitez pas à proposer de nouvelles features que vous voudriez voir apparaître dans le plugin !
 
-**Problèmes connus:**
+### **Problèmes connus:**
 
 * Aucun problème connu pour le moment.
 
-**Soumettre un bug:**
+### **Soumettre un bug:**
 
 Si vous rencontrez un problème avec le plugin, veuillez le signaler en ouvrant une issue sur le repo GitHub.
