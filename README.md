@@ -10,6 +10,7 @@ Ce plugin Minecraft a pour but pédagogique de démontrer l'implémentation du p
 * Interface graphique simple avec ScoreBoard et BossBar
 * Stockage de données utilisateur dans un fichier JSON
 * Système simple de RPG avec level et expérience
+* Persistence des données
 
 **Structure du plugin:**
 
@@ -18,6 +19,8 @@ Le plugin est organisé selon le pattern MVC:
 * **Model:** Contient les classes représentant les données du plugin (ex: CraftPlayer)
 * **View:** Contient les classes responsables de l'affichage et des interactions avec Minecraft (ex: ScoreBoard, Connexion du joueur)
 * **Controller:** Contient les classes qui gèrent la logique et l'interaction entre le modèle et la vue (ex: CraftPlayerController)
+
+Il utilise notamment le design pattern d'Observer.
 
 **Build du plugin:**
 
