@@ -1,6 +1,5 @@
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/minecraft_title.png">
-  <br>ProfilesManager</br>
 </h1>
 
 # Plugin Minecraft - Pattern MVC
