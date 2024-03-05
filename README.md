@@ -33,6 +33,10 @@ Il utilise notamment le design pattern d'Observer.
   <img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/mvc_exemple.png">
 </h1>
 
+L'architecture est multi-tier (3 exactement), une première qui est l'IHM (Minecraft), une seconde qui est la Logic est enfin le Storage.
+
+Le storage utilise un DAO, avec des méthodes CRUD (create/read/update/delete) avec de la sérialisation en json utilisant Gson qui est nativement intégré a la librairie de spigot.
+
 ### **Build du plugin:**
 
 1. Clonez le repo GitHub
