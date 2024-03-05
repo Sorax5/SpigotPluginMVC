@@ -28,6 +28,10 @@ Le plugin est organisé selon le pattern MVC:
 
 Il utilise notamment le design pattern d'Observer.
 
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Sorax5/SpigotPluginMVC/master/assets/mvc_exemple.png">
+</h1>
+
 ### **Build du plugin:**
 
 1. Clonez le repo GitHub
