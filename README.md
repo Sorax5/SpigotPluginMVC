@@ -64,7 +64,7 @@ Le storage utilise un DAO, avec des méthodes CRUD (create/read/update/delete) a
 
 ### **Licence:**
 
-Ce plugin est sous licence MIT.
+Ce plugin est sous licence GPL-3.0 license.
 
 ### **Contributeurs:**
 
